@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1C11C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создайте Аккаунт"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textColor="#fdf8ff" />
+
+    <EditText
+        android:id="@+id/userlogin"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#6a6a6a"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        android:hint="Введите логин" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#6a6a6a"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        android:hint="Введите Email" />
+
+    <EditText
+        android:id="@+id/userpassword"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#6a6a6a"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#fdfdfd"
+        android:hint="Введите Пароль" />
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:text="Button" />
+
+
+</LinearLayout>
